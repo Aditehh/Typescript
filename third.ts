@@ -14,7 +14,20 @@ let myUser: User = {
     // creditcarddetails: 23324543
 }
 
-type cardnumber
+type cardnumber = {
+    cardnumber: string;
+
+}
+
+type carddate = {
+    carddate: string
+}
+
+type carddetails = cardnumber & carddate & {
+    cvv: number
+}
+
+
 
 myUser.email = "h@gmail.com"
 console.log(myUser.email)
