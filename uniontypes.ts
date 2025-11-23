@@ -26,12 +26,15 @@ hites = { username: "fla", id: 334 }
 
 function getDBId(id: number | string) {
     //making some api class to bring on id
-    console.log(`db id ins: ${id}`)
+    if (typeof id == "number") {
+
+        console.log(`db id ins: ${id}`)
+    }
+    else if (typeof id == "string") {
+        console.log("your name might be " + id)
+    }
 }
 
-getDBId(3)
-lkjfkldskjldsf
-adkjl;;dslkjads
-lkjldfskdfs
-jdfskjldfskjl
-dfskjlldfsalj
+getDBId("aditya")
+
+
