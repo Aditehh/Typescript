@@ -8,3 +8,4 @@ person = ["aa", 19, false]
 
 console.log(person[0])
 
+
