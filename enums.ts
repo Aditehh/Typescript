@@ -1,7 +1,7 @@
 //really crazy really smth
 //when you want to restrict somebody choice 
 
-enum Seatchoice {
+const enum Seatchoice {
     aisle = "aisle",
     middle = "windows",
     window = "middle",
