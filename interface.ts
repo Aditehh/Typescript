@@ -32,6 +32,3 @@ const aditeh: Admin = {
         return 10
     }
 }
-
-//INTERFACE VS TYPES
-
